@@ -68,6 +68,7 @@ type SDC struct {
 	Accepter         []string       	`json:"accepter"`
 	Deleted          bool           	`json:"deleted"`
 }
+
 type Header struct {
 	PlannedOrder      	int    	`json:"PlannedOrder"`
 	IsMarkedForDeletion *bool  	`json:"IsMarkedForDeletion"`
